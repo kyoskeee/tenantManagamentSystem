@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* bg-image */
+:root{
+    --bg-logins: url("../bg-img/login.jpg");
+}
+
+/* Login PAGE */
+
+
+/* navbar */
+
+
+.login-card{
+    background: #000020;
+    /* mix-blend-mode: multiply; */
+}
+
+/* .login-card-link{
+    color: red;
+} */
+
+.adminIcon{
+    font-size: 100px;
+    color: rgb(232, 226, 226);
+}
+
+.text-a{
+    color: rgb(232, 226, 226);
+}
+
+.moto{
+    font-size: 20px;
+}
+
+a:is(:link, :active, :visited).active{
+    color: white;
+    background-color: black;
+}
